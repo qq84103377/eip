@@ -1,0 +1,495 @@
+
+.iconEIP{
+  display: inline-block;
+  vertical-align: middle;
+}
+.iconVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon_arrow_left{
+  width: 14px;
+  height: 14px;
+  background: url('./assets/images/icon_arrow_left.png') no-repeat;
+  background-size: contain;
+}
+.icon_arrow_right{
+  width: 14px;
+  height: 14px;
+  background: url('./assets/images/icon_arrow_right.png') no-repeat;
+  background-size: contain;
+}
+.icon_news{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_news.png') no-repeat;
+  background-size: contain;
+}
+.icon_more{
+  width: 14px;
+  height: 14px;
+  background: url('./assets/images/icon_more.png') no-repeat;
+  background-size: contain;
+}
+.icon_cate{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_cate.png') no-repeat;
+  background-size: contain;
+}
+.icon_special{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_special.png') no-repeat;
+  background-size: contain;
+}
+.icon_look{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_look.png') no-repeat;
+  background-size: contain;
+}
+.icon_college{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_college.png') no-repeat;
+  background-size: contain;
+}
+.icon_party{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_party.png') no-repeat;
+  background-size: contain;
+}
+.icon_enterprise{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_enterprise.png') no-repeat;
+  background-size: contain;
+}
+.icon_clique{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_clique.png') no-repeat;
+  background-size: contain;
+}
+.icon_news_nav1{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav1.png') no-repeat;
+  background-size: contain;
+}
+.icon_news_nav2{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav2.png') no-repeat;
+  background-size: contain;
+}
+.icon_news_nav3{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav3.png') no-repeat;
+  background-size: contain;
+}
+.icon_news_nav4{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav4.png') no-repeat;
+  background-size: contain;
+}
+.icon_news_nav5{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav5.png') no-repeat;
+  background-size: contain;
+}
+.icon_news_nav6{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav6.png') no-repeat;
+  background-size: contain;
+}
+.icon_news_nav7{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav7.png') no-repeat;
+  background-size: contain;
+}
+.icon_news_nav9{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/list_icon_buyhouse.png') no-repeat;
+  background-size: contain;
+}
+.icon_news_nav8{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav8.png') no-repeat;
+  background-size: contain;
+}
+.icon_news_nav10{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav10.png') no-repeat;
+  background-size: contain;
+}
+.icon_special_nav1{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav1.png') no-repeat;
+  background-size: contain;
+}
+.icon_special_nav2{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav2.png') no-repeat;
+  background-size: contain;
+}
+.icon_special_nav3{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav3.png') no-repeat;
+  background-size: contain;
+}
+.icon_special_nav4{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_news_nav4.png') no-repeat;
+  background-size: contain;
+}
+.icon_toggle_list{
+  width: 16px;
+  height: 16px;
+  background: url('./assets/images/icon_toggle_list.png') no-repeat;
+  background-size: contain;
+}
+.icon_toggle_summary{
+  width: 16px;
+  height: 16px;
+  background: url('./assets/images/icon_toggle_summary.png') no-repeat;
+  background-size: contain;
+}
+.icon_click{
+  width: 20px;
+  height: 20px;
+  background: url('./assets/images/icon_click.png') no-repeat;
+  background-size: contain;
+}
+.icon_collect_file{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_collect_file.png') no-repeat;
+  background-size: contain;
+}
+.icon_tree_edit{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_tree_edit.png') no-repeat;
+  background-size: contain;
+}
+.icon_tree_del{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_tree_del.png') no-repeat;
+  background-size: contain;
+}
+.icon_tree_add{
+  width: 14px;
+  height: 14px;
+  background: url('./assets/images/icon_tree_add.png') no-repeat;
+  background-size: contain;
+}
+.icon_tree_sub{
+  width: 14px;
+  height: 14px;
+  background: url('./assets/images/icon_tree_sub.png') no-repeat;
+  background-size: contain;
+}
+.icon_meetings {
+  width: 18px;
+  height: 18px;
+  background: url("./assets/images/home_icon_meetings.png") no-repeat;
+  background-size: contain;
+}
+.icon_honor {
+  width: 18px;
+  height: 18px;
+  background: url("./assets/images/home_icon_honor.png") no-repeat;
+  background-size: contain;
+}
+.icon_recommend {
+  width: 18px;
+  height: 18px;
+  background: url("./assets/images/home_icon_recommend.png") no-repeat;
+  background-size: contain;
+}
+.icon_video {
+  width: 18px;
+  height: 18px;
+  background: url("./assets/images/home_icon_video.png") no-repeat;
+  background-size: contain;
+}
+.icon_picture {
+  width: 18px;
+  height: 18px;
+  background: url("./assets/images/home_icon_picture.png") no-repeat;
+  background-size: contain;
+}
+.icon_new_bowse {
+  width: 20px;
+  height: 12px;
+  background: url("./assets/images/new_bowse.png") no-repeat;
+  background-size: contain;
+}
+.icon_new_play {
+  width: 50px;
+  height: 50px;
+  background: url("./assets/images/new_icon_play.png") no-repeat;
+  background-size: contain;
+}
+.icon_clear_input {
+  width: 16px;
+  height: 16px;
+  background: url("./assets/images/set_input_warn.png") no-repeat;
+  background-size: contain;
+}
+.icon_location {
+  position: absolute;
+  left: 332px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.icon_personal{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/me_icon_personal.png') no-repeat;
+  background-size: contain;
+}
+.icon_fill {
+  width: 24px;
+  height: 24px;
+  background: url('./assets/images/me_icon_flag_fill.png') no-repeat;
+  background-size: contain;
+}
+.icon_empty {
+  width: 24px;
+  height: 24px;
+  background: url('./assets/images/me_icon_flag_empty.png') no-repeat;
+  background-size: contain;
+}
+.icon_new_tag{
+  width: 36px;
+  height: 17px;
+  background: url('./assets/images/icon_new_tag.png') no-repeat;
+  background-size: contain;
+  margin-left: 10px;
+}
+.icon_unread{
+  width: 37px;
+  height: 14px;
+  background: url('./assets/images/icon_unread.png') no-repeat;
+  background-size: contain;
+  margin-left: 10px;
+}
+.icon_readed{
+  width: 37px;
+  height: 14px;
+  background: url('./assets/images/icon_readed.png') no-repeat;
+  background-size: contain;
+  margin-left: 10px;
+}
+.icon_edit {
+  width: 20px;
+  height: 20px;
+  background: url('./assets/images/edit_icon.png') no-repeat;
+  background-size: contain;
+}
+.icon_delete {
+  width: 16px;
+  height: 16px;
+  background: url('./assets/images/home_window_delete.png') no-repeat;
+  background-size: contain;
+}
+.success-info-icon {
+  width: 16px;
+  height: 16px;
+  background: url('./assets/images/set_window_success.png') no-repeat;
+  background-size: contain;
+}
+.error-info-icon {
+  width: 16px;
+  height: 16px;
+  background: url('./assets/images/gantanhao-quan.png') no-repeat;
+  background-size: contain;
+}
+.icon_notice_nav1{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/list_icon_gonggao.png') no-repeat;
+  background-size: contain;
+}
+.icon_notice_nav2{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/list_icon_jiyao.png') no-repeat;
+  background-size: contain;
+}
+.icon_notice_nav3{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/list_icon_renmian.png') no-repeat;
+  background-size: contain;
+}
+.icon_notice_nav4{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/list_icon_zhidu.png') no-repeat;
+  background-size: contain;
+}
+.book_icon_mail{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/book_icon_mail.png') no-repeat;
+  background-size: contain;
+}
+.book_icon_user{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/book_icon_user.png') no-repeat;
+  background-size: contain;
+}
+.book_icon_number{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/book_icon_number.png') no-repeat;
+  background-size: contain;
+}
+.icon_tree_link{
+  width: 22px;
+  height: 22px;
+  background: url('./assets/images/icon_tree_link.png') no-repeat;
+  background-size: contain;
+}
+.icon_followup{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_followup.png') no-repeat;
+  background-size: contain;
+}
+.icon_buyhouse{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_buyhouse.png') no-repeat;
+  background-size: contain;
+}
+.icon_link{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_link.png') no-repeat;
+  background-size: contain;
+}
+.icon_qrcode{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_qrcode.png') no-repeat;
+  background-size: contain;
+}
+.icon_attachment{
+  width: 16px;
+  height: 17px;
+  background: url('./assets/images/icon_attachment.png') no-repeat;
+  background-size: contain;
+}
+.icon_pdf{
+  width: 16px;
+  height: 17px;
+  background: url('./assets/images/icon_pdf.png') no-repeat;
+  background-size: contain;
+}
+.icon_word{
+  width: 16px;
+  height: 17px;
+  background: url('./assets/images/icon_word.png') no-repeat;
+  background-size: contain;
+}
+.icon_excel{
+  width: 16px;
+  height: 17px;
+  background: url('./assets/images/icon_excel.png') no-repeat;
+  background-size: contain;
+}
+.icon_ppt{
+  width: 16px;
+  height: 17px;
+  background: url('./assets/images/icon_ppt.png') no-repeat;
+  background-size: contain;
+}
+.icon_building{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_building.png') no-repeat;
+  background-size: contain;
+}
+.icon_dep{
+  width: 18px;
+  height: 18px;
+  background: url('./assets/images/icon_dep.png') no-repeat;
+  background-size: contain;
+}
+.icon_org{
+  width: 15px;
+  height: 15px;
+  background: url('./assets/images/icon_org.png') no-repeat;
+  background-size: contain;
+}
+.icon_user_add{
+  width: 17px;
+  height: 17px;
+  background: url('./assets/images/icon_user_add.png') no-repeat;
+  background-size: contain;
+}
+.icon_book{
+  width: 17px;
+  height: 17px;
+  background: url('./assets/images/icon-book.png') no-repeat;
+  background-size: contain;
+}
+.icon_download{
+  width: 17px;
+  height: 17px;
+  background: url('./assets/images/icon-download.png') no-repeat;
+  background-size: contain;
+}
+.icon_news_edit{
+  width: 15px;
+  height: 18px;
+  background: url('./assets/images/icon_news_edit.png') no-repeat;
+  background-size: contain;
+}
+.icon_top{
+  width: 31px;
+  height: 17px;
+  background: url('./assets/images/icon_top.gif') no-repeat;
+  background-size: contain;
+}
+.icon_download_grey{
+  width: 16px;
+  height: 16px;
+  background: url('./assets/images/icon_download_grey.png') no-repeat;
+  background-size: contain;
+}
+
+.icon_pic{
+  width: 16px;
+  height: 19px;
+  background: url('./assets/images/icon_pic.png') no-repeat;
+  background-size: contain;
+}
+.icon_general{
+  width: 16px;
+  height: 19px;
+  background: url('./assets/images/icon_general.png') no-repeat;
+  background-size: contain;
+}

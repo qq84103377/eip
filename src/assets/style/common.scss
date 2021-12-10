@@ -1,0 +1,59 @@
+.aic{
+  display: flex;
+  align-items: center;
+}
+.lh20{
+  line-height: 20px !important;
+}
+.lh32{
+  line-height: 32px !important;
+}
+.lh38{
+  line-height: 46px !important;
+}
+.fs12{
+  font-size: 12px;
+}
+.fs14{
+  font-size: 14px;
+}
+.fs16{
+  font-size: 16px;
+}
+.fs18{
+  font-size: 18px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.mr5{
+  margin-right: 5px;
+}
+.mb20{
+  margin-bottom: 20px !important;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.ml6{
+  margin-left: 6px;
+}
+.ml20{
+  margin-left: 20px;
+}
+.pdt10{
+  padding-top: 10px;
+}
+.mt20{
+  margin-top: 20px;
+}
+
+.list-overflow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden
+}
+
+a:hover{
+    color: #4285f4 !important;
+}

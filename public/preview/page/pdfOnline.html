@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <title>奥园在线文档</title>
+    <script>
+        document.write('<link rel="stylesheet" href="../css/style.css?_t='+new Date().getTime()+'">')
+        document.write('<link rel="stylesheet" href="../css/pdfh5.css?_t='+new Date().getTime()+'">')
+    </script>
+<!--    <link href="../css/style.css" rel="stylesheet" />-->
+<!--    <link href="../css/pdfh5.css" rel="stylesheet" />-->
+    <link href="../favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        #demo {
+            display: none;
+            /* height: 33%; */
+        }
+
+        #demo2 {
+            /* display: none; */
+            height: 33%;
+        }
+
+        #demo3 {
+            /* display: none; */
+            height: 33%;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="text-wrapper">
+            <div class="how-to"><span>正在加载中，请您耐心等待...</span></div>
+        </div>
+
+    </div>
+    <div id="pdfContainer"></div>
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../lib/jpdf/pdf.js"></script>
+    <script src="../lib/jpdf/pdf.worker.js"></script>
+    <script src="../lib/jpdf/pdfh5.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        document.write('<script src="../js/jpdfSchedule.js?_t='+new Date().getTime()+'"><\/script>')
+        document.write('<script src="../js/requestConfig.js?_t='+new Date().getTime()+'"><\/script>')
+    </script>
+<!--    <script src="../js/jpdfSchedule.js"></script>-->
+<!--    <script src="../js/requestConfig.js"></script>-->
+    <script type="text/javascript">
+        //   var pdfh5;
+        //  var pdfUrl = "http://localhost:7064/wopi/files/7d789ff8-4326-4210-a014-b5095b022c97/contents?mode=realtime";
+        $(function () {
+            $("#app").remove();
+            $("#pdfContainer").show();
+
+            getConfiguration(defaultConfig, function (data) {
+                jpdfInital('pdfContainer', data);
+            });
+
+            //var json = '../js/config.js';
+            //$.getJSON(json, function (data) {
+            //    jpdfInital('pdfContainer', data);
+            //});
+            //var pdfh5 = new Pdfh5('#pdfContainer', {
+            //    pdfurl: pdfUrl
+            //});
+
+            ////pdf准备开始渲染，此时可以拿到pdf总页数
+            //pdfh5.on("ready", function () {
+            //    console.log("pdf准备开始渲染，总页数：" + this.totalNum)
+            //});
+            ////监听pdf渲染成功
+            //pdfh5.on("success", function (time) {
+            //    time = time / 1000
+            //    console.log("pdf渲染完成，总耗时" + time + "秒");
+            //    //滚动到第3页
+            //    // pdfh5.goto(3);
+            //});
+        })
+    </script>
+</body>
+
+</html>

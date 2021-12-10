@@ -1,0 +1,27 @@
+{
+  "baseSize": 100,
+  "autoLogout": 6900,
+  "axiosConfig": {
+    "withCredentials": true,
+    "baseURL": "https://eip.aoyuan.net/",
+    "oaURL": "https://ayoa.aoyuan.net",
+    "adminURL": "https://eip.aoyuan.net/gateway/admin/api/app"
+  },
+  "docCategoryIds": {
+    "watch": {"catName": "媒体看奥园", "catId": "1764aa239d72d27a9a4873d4f4f871db"},
+    "dnews": {"catName": "奥园党建", "catId": "15f053c140f7f9b00ed3bfe455b903a2"},
+    "glory": {"catName": "奥园荣誉", "catId": "1764609f782d9bef4addc834addae3c6"},
+    "college": {"catName": "企业大学", "catId": "16951aef596dc2ea47f2b064bf997565"},
+    "dintroduction": {"catName": "党建介绍", "catId": "15fc7cdfb67bdd9bb3188d04a28b90c6"},
+    "follow": {"catName": "雇主品牌", "catId": "15f05303eb24fd664fc09e54b9c873d0"},
+    "groupNews": {"catName": "集团新闻", "catId": "15ea7ba8183a6afc980bb6c4d639bfb3"},
+    "homebuyers": {"catName": "优惠购房", "catId": "15fde0fa8357841e3b86cda4e02b7af3"},
+    "industryNews": {"catName": "产业新闻", "catId": "1781ab3a9ffb0578829593c49038ef6e"}
+  },
+  "staticUrls": {
+    "oaAoYuanRen": {"urlName": "奥园人", "url": "http://183.6.36.162:8000/aoyuanren/info_aybook/info_aybook.html"},
+    "selfUrl": {"urlName": "我的自助", "url": "https://ayehr.aoyuan.net/#/dashboard"}
+  }
+}
+
+

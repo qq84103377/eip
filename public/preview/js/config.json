@@ -1,0 +1,8 @@
+{
+  "docOnline":{
+    "officeWebAppsUrl": "https://oos.aoyuan.net",
+    "wopiUrl": "https://frpms.aoyuan.net",
+    "pdfUrl": "https://frpms.aoyuan.net",
+    "voucherUrl": "https://frpms.aoyuan.net/api/voucher/apply"
+  }
+}
