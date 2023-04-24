@@ -51,6 +51,7 @@
         if(1){
           let b = 2
         }
+        return
         //调试用
         // this.pwdShow = (this.pwdExpired) ? (this.pwdExpired - new Date('2021/9/18 11:50:00').getTime()) <= (60 * 60 * 24 * 1000 * 15) : false
         this.pwdShow = (this.pwdExpired && this.pwdReqCount < 2) ? (this.pwdExpired - this.currentTime) <= (60 * 60 * 24 * 1000 * 15) : false
